@@ -13,9 +13,9 @@ body{
 
 /* Border Rojos */
 
-header, nav, main, h2, h3, div, a, p, img, footer{
+/* header, nav, main, h2, h3, div, a, p, img, footer{
     border: 1px solid red;
-}
+} */
 
 /* Header */
 
