@@ -101,7 +101,6 @@ aside{
     height: 11rem;
     text-align: center;
     padding: 2rem;
-
 }
 
 aside h3{
@@ -207,4 +206,72 @@ footer p{
 .social .github:hover i{
     color: #ffffff;
     transition: all ease 0.3s;
+}
+
+/* MEDIAQUERY TABLET */
+
+@media screen and (max-width: 1025px) {
+    
+    /* Header */
+    
+    header{
+        height: 7rem;
+    }
+    
+    .logo{
+        width: auto;
+    }
+    .logo img{
+        width: 60%;
+        margin: 0 5rem;
+    }
+    
+    nav a{
+        font-size: 18px;
+        margin: 0 1rem;
+    }
+    
+    /* Main */
+    
+    .oferta{
+        font-size: 50px;
+    }
+    
+    main h2{
+        font-size: 30px;
+    }
+    
+    main p{
+        font-size: 25px;
+    }
+    
+    .pie-oferta{
+        font-size: 33px;
+    }
+
+}
+
+/* MEDIAQUERY MOVIL */
+
+@media screen and (max-width: 572px) {
+
+    /* Header */
+
+header{
+    height: 7rem;
+}
+
+.logo{
+    width: auto;
+}
+.logo img{
+    width: 80%;
+    margin: 0 1rem;
+}
+
+nav a{
+    font-size: 16px;
+    margin: 0 0.5rem;
+}
+
 }

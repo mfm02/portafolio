@@ -109,11 +109,6 @@ section div{
     max-height: 20rem;
 }
 
-button{
-    display: block;
-    margin: auto;
-}
-
 /* Main */
 
 main{
@@ -288,4 +283,114 @@ footer p{
 .social .github:hover i{
     color: #ffffff;
     transition: all ease 0.3s;
+}
+
+/* MEDIAQUERY TABLET */
+
+@media screen and (max-width: 1025px) {
+    
+/* Header */
+
+header{
+    height: 7rem;
+}
+
+.logo{
+    width: auto;
+}
+.logo img{
+    width: 60%;
+    margin: 0 5rem;
+}
+
+nav a{
+    font-size: 18px;
+    margin: 0 1rem;
+}
+
+/* Section */
+
+section{
+    padding: 4rem 4rem 3rem 3rem;
+}
+
+/* Main */
+
+.card1, .card2, .card3{
+    width: 15rem;
+}
+
+main div{
+    border: 1px solid black;
+    height: auto;
+}
+
+main div:hover{
+    width: 15rem;
+}
+
+}
+
+/* MEDIAQUERY MOVIL */
+
+@media screen and (max-width: 572px) {
+
+    /* Header */
+
+header{
+    height: 7rem;
+}
+
+.logo{
+    width: auto;
+}
+.logo img{
+    width: 80%;
+    margin: 0 1rem;
+}
+
+nav a{
+    font-size: 16px;
+    margin: 0 0.5rem;
+}
+
+/* Section */
+
+section{
+    padding: 3rem 3rem 3rem 3rem;
+}
+
+.conoce{
+    font-size: 20px;
+}
+
+.nombre{
+    width: 10rem;
+    font-size: 60px;
+}
+
+.presentacion{
+    margin-left: 30%;
+    font-size: 30px;
+}
+
+.model img{
+    margin-bottom: 0.25rem;
+    max-height: 15rem;
+}
+
+/* Main */
+
+.card1, .card2, .card3{
+    width: 10rem;
+}
+
+main div:hover{
+    width: 10rem;
+}
+
+main p{
+    padding: 1.5rem 1rem;
+}
+
 }
